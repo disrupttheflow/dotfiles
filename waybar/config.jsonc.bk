@@ -1,0 +1,53 @@
+{
+   "layer": "top",
+   "position": "top", 
+   "height": 30,
+   "modules-center": ["network", "custom/updates", "pulseaudio", "custom/date", "clock", "custom/power"],
+  "tray": {
+    "icon-size": 13,
+    "spacing": 10
+  },
+	"custom/date": {
+    "format": "  {}",
+		"interval": 3600,
+		"exec": "$HOME/.config/waybar/waybar-date.sh"
+	},
+	"clock": {
+		"format": "  {:%H:%M} ",
+		"tooltip-format": "{:%e %B %Y}"
+	},
+	"network": {
+		"format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet+
+		"format-linked": "{ifname} (No IP) ",
+		"format-disconnected": "X Disconnected",
+		"tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}"
+	},
+	"custom/updates": {
+        "interval": 120,
+        "return-type": "string",
+        "exec": "~/.config/waybar/modules/updates.sh",
+        "tooltip": false,
+		"on-click":"setsid -f kitty start yay -Syyu"
+		//"on-click":"setsid -f foot -e paru -Syyu"
+    },
+    "custom/power": {
+        "format":"⏻",
+        "on-click": "exec ~/.config/sway/scripts/power-menu.sh",
+        "tooltip": false,
+    },
+    "pulseaudio": {
+		"format": "{icon}  {volume}%",
+        	"format-muted": "ﱝ Muted",
+                "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+                "scroll-step": 5,
+        	"format-icons": {
+            	"headphone": "",
+            	"hands-free": "",
+            	"headset": "",
+            	"phone": "",
+            	"portable": "",
+            	"car": "",
+            	"default": ["", "", ""]
+        }
+    }
+}
