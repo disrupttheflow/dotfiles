@@ -1,0 +1,6 @@
+2022/12/11-22:07:33.938 4247a Creating DB /home/dtf/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb since it was missing.
+2022/12/11-22:07:33.943 4247a Reusing MANIFEST /home/dtf/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/11-22:07:36.335 4337e Level-0 table #5: started
+2022/12/11-22:07:36.337 4337e Level-0 table #5: 385 bytes OK
+2022/12/11-22:07:36.340 4337e Delete type=0 #3
+2022/12/11-22:07:36.340 4337e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

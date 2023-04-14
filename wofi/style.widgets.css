@@ -1,14 +1,10 @@
-/*
-Arc-Dark Color Scheme
-*/
-
 @define-color highlight #c4a7e7;
 @define-color base1  #404552;
 @define-color base2  #40455;
 @define-color base3  #4b5160;
 
 *{
-    font-family: UbuntuMono;
+    font-family: Cartograph CF Nerd Font;
 }
 
 #window {

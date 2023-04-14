@@ -1,0 +1,6 @@
+2023/01/08-18:00:22.602 1a82 Creating DB /home/dtf/.config/chromium/Default/IndexedDB/https_weather.com_0.indexeddb.leveldb since it was missing.
+2023/01/08-18:00:22.607 1a82 Reusing MANIFEST /home/dtf/.config/chromium/Default/IndexedDB/https_weather.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/08-18:02:28.981 1d7e Level-0 table #5: started
+2023/01/08-18:02:28.983 1d7e Level-0 table #5: 1247 bytes OK
+2023/01/08-18:02:28.985 1d7e Delete type=0 #3
+2023/01/08-18:02:28.985 1d7e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

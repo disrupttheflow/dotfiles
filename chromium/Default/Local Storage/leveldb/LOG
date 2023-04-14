@@ -1,0 +1,8 @@
+2023/04/14-18:27:31.944 3 Reusing MANIFEST /home/dtf/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/04/14-18:27:31.944 3 Recovering log #481
+2023/04/14-18:27:31.953 3 Level-0 table #484: started
+2023/04/14-18:27:31.959 3 Level-0 table #484: 235590 bytes OK
+2023/04/14-18:27:31.962 3 Delete type=0 #481
+2023/04/14-18:34:11.170 3 Level-0 table #487: started
+2023/04/14-18:34:11.179 3 Level-0 table #487: 242334 bytes OK
+2023/04/14-18:34:11.183 3 Delete type=0 #485

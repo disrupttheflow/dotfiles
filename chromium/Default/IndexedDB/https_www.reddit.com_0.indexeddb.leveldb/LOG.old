@@ -1,0 +1,6 @@
+2022/12/14-20:26:07.782 247ee Creating DB /home/dtf/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
+2022/12/14-20:26:07.788 247ee Reusing MANIFEST /home/dtf/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/14-20:27:12.054 247ee Level-0 table #5: started
+2022/12/14-20:27:12.056 247ee Level-0 table #5: 1754 bytes OK
+2022/12/14-20:27:12.059 247ee Delete type=0 #3
+2022/12/14-20:27:12.059 247ee Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,26 @@
+2023/04/11-20:43:23.515 3 Reusing MANIFEST /home/dtf/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/04/11-20:43:23.516 3 Recovering log #468
+2023/04/11-20:43:23.520 3 Level-0 table #472: started
+2023/04/11-20:43:23.527 3 Level-0 table #472: 76704 bytes OK
+2023/04/11-20:43:23.532 3 Delete type=0 #468
+2023/04/11-20:43:43.315 5 Level-0 table #475: started
+2023/04/11-20:43:43.323 5 Level-0 table #475: 235590 bytes OK
+2023/04/11-20:43:43.326 5 Delete type=0 #473
+2023/04/11-20:43:56.163 5 Level-0 table #477: started
+2023/04/11-20:43:56.168 5 Level-0 table #477: 76704 bytes OK
+2023/04/11-20:43:56.171 5 Delete type=0 #474
+2023/04/11-20:44:06.410 5 Level-0 table #479: started
+2023/04/11-20:44:06.416 5 Level-0 table #479: 240328 bytes OK
+2023/04/11-20:44:06.419 5 Delete type=0 #476
+2023/04/11-20:44:06.419 5 Compacting 4@0 + 1@1 files
+2023/04/11-20:44:06.434 5 Generated table #480@0: 492 keys, 929692 bytes
+2023/04/11-20:44:06.434 5 Compacted 4@0 + 1@1 files => 929692 bytes
+2023/04/11-20:44:06.436 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/04/11-20:44:06.436 5 Delete type=2 #472
+2023/04/11-20:44:06.436 5 Delete type=2 #475
+2023/04/11-20:44:06.437 5 Delete type=2 #479
+2023/04/11-20:44:06.437 5 Delete type=2 #477
+2023/04/11-20:44:06.437 5 Delete type=2 #470
+2023/04/11-20:54:45.011 a Level-0 table #482: started
+2023/04/11-20:54:45.019 a Level-0 table #482: 236815 bytes OK
+2023/04/11-20:54:45.022 a Delete type=0 #478
